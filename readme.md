@@ -1,7 +1,6 @@
 # Simplest graph implementation in Java (30 lines)
 
 This class `Graph ` implements simplified Graph ADT without removals
-
 It can be used to practise in writing
 Depth first search (DFT) and Breadth first search (BFT) 
 
@@ -33,7 +32,7 @@ for(Node<String> n: graph.getNodes()){
     System.out.println(n.element);
 }
 
-// print number of vertices that adjacent to A
+//print number of vertices that are adjacent to A
 System.out.println(graph.getNode("A").neighbors.size());
 
 //mark node as visited
